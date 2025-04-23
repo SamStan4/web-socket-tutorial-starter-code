@@ -1,0 +1,40 @@
+.single-signature-wrapper-styles {
+    width: 100%;
+    min-height: 35px;
+    border-left: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    display: flex;
+    flex-direction: row;
+}
+
+.name-styles {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.city-styles {
+    height: 100%;
+    width: 30%;
+    border-left: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    display: flex;
+    align-items: center;
+}
+
+.state-styles {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.text-styles {
+    margin-left: 5px;
+}
+
+.gray-styles {
+    background-color: #c2c2c2;
+}

@@ -1,0 +1,36 @@
+.signature-text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 27px;
+    color: #0000FF;
+}
+
+.second-text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text-left-container {
+    width: 70%;
+    margin-right: 5%;
+}
+
+.img-right-container {
+    width: 25%;
+}
+
+.text-content {
+    text-align: justify;
+}
+
+.prof-img {
+    width: 100%;
+}

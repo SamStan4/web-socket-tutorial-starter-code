@@ -1,0 +1,32 @@
+.page-wrapper {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: calc(100vh - 65px);
+}
+
+.form-wrapper {
+    width: 40%;
+    height: 90%;
+    min-width: 500px;
+    min-height: 700px;
+    max-width: 50%;
+    max-height: 90%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-form-wrapper {
+    width: 95%;
+    height: 97%;
+    max-width: 95%;
+    max-height: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
