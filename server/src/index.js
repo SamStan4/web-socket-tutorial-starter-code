@@ -9,7 +9,6 @@ const appRouter = express();
 appRouter.use(cors());
 appRouter.use(express.json());
 
-// im on windows, is this bad path?
 const signatureRouter = require("./routes/signatureRouter.js");
 
 const LISTEN_PORT = process.env.LISTEN_PORT;
